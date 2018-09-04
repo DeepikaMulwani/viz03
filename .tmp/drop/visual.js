@@ -630,7 +630,7 @@ var powerbi;
                         console.log('Visual update', options);
                         if (typeof this.textNode !== "undefined") {
                             //     this.textNode.textContent = (this.updateCount++).toString();
-                            var sumMeasure = options.dataViews[0].table.rows.toString();
+                            var sumMeasure = options.dataViews[0].table.rows.toString() + "FUN";
                             console.log('abc ' + sumMeasure);
                             this.textNode.textContent = sumMeasure;
                         }
